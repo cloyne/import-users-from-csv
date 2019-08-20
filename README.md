@@ -78,14 +78,14 @@ You can try importing that file and look at the result.
 * Fixed bug where importing fields with "0" value doesn't work
 * Added option to update existing users by username or email
 
-### 0.5.1
+### 0.5.1: Installation error fix.
 * Removed example plugin file to avoid invalid header error on
 installation
 
-### 0.5
+### 0.5: Code improvement for easier integration with another plugin.
 * Changed code to allow running import from another plugin
 
-### 0.4
+### 0.4: RFC 4180 compliance, performance improvement and bug fix.
 * Switched to RFC 4180 compliant library for CSV parsing
 * Introduced IS_IU_CSV_DELIMITER constant to allow changing the CSV delimiter
 * Improved memory usage by reading the CSV file line by line
@@ -98,7 +98,7 @@ on import
 ### 0.3.1
 * Don't process empty columns in the csv file
 
-### 0.3
+### 0.3: Bug fix, performance improvement and internationalization.
 * Fixed bug where password field was overwritten for existing users
 * Use fgetcsv instead of str_getcsv
 * Don't run insert or update user function when only user ID was
@@ -106,47 +106,21 @@ provided (performance improvement)
 * Internationalization
 * Added display name to example csv file
 
-### 0.2.2
+### 0.2.2: Fix bug with users import when no user meta is set.
 * Added role to example file
 * Fixed bug with users not imported when no user meta is set
 
-### 0.2.1
+### 0.2.1: Various bug fixes and documentation improvements.
 * Added missing example file
 * Fixed bug with redirection after csv processing
 * Fixed error logging
 * Fixed typos in documentation
 * Other bug fixes
 
-### 0.2
+### 0.2: Code cleanup. Added readme.txt.
 * First public release.
 * Code cleanup.
 * Added readme.txt.
 
 ### 0.1
 * First release.
-
-## Upgrade Notice
-
-### 0.5.1
-* Installation error fix.
-
-### 0.5
-* Code improvement for easier integration with another plugin.
-
-### 0.4
-* RFC 4180 compliance, performance improvement and bug fix.
-
-### 0.3
-Bug fix, performance improvement and internationalization.
-
-### 0.2.2
-Fix bug with users import when no user meta is set.
-
-### 0.2.1
-Various bug fixes and documentation improvements.
-
-### 0.2
-Code cleanup. Added readme.txt.
-
-### 0.1
-First release.
